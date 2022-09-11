@@ -4,16 +4,16 @@
 int[] numbers = new int[] { 1, 2, 3, 4, 5 };
 int sum = 0;
 
-void addNumbers(int[] numbers)
+void subtractNumbers(int[] numbers)
 {
    
     foreach (int number in numbers)
     {
         int tmp = number;
-        sum = sum + tmp;
+        sum = sum - tmp;
     }
 
     Console.WriteLine(sum);
 }
 
-addNumbers(numbers);
+subtractNumbers(numbers);
